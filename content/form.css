@@ -32,4 +32,11 @@
     border: none;
     box-shadow: 5px 5px 10px rgb(3, 5, 102),
     -5px -5px 10px rgba(70, 70, 70, 0.12); 
+
+}
+.form input::placeholder {
+
+    color: rgb(78, 78, 78);
+    font-style: italic;
+    font-size: 15px;
 }
