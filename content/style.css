@@ -1,0 +1,135 @@
+body,
+body *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+:root{
+
+    --widht: 1000px;
+    --issiputimas1: 40px;
+    --issiputimas2: 60px;
+}
+
+body{
+    
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rgb(83, 83, 83);
+    
+    background-image:url(/content/fonasa.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+main{
+
+    display: inline-block;
+    
+    width: var(--widht);
+    margin-top: 100px;
+    margin-left: calc((100% - var(--widht)) / 2);
+
+
+
+}
+
+.left-column {
+    width: 40%;
+    float: left;
+    padding: var(--issiputimas1);
+    margin-top: 30px;
+    background-color: black;
+    background-image: url(/content/sign_up.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    
+}
+
+.main-title
+{
+    color: #ffffff;
+    -webkit-text-stroke: 0.01px #071dac;
+    display: inline-block;
+    width: 100%;
+    font-size: 70px;
+    font-weight:900;
+    padding-bottom: 320px;
+
+}
+
+
+
+.symbol {
+    color: aliceblue;
+}
+
+.bottom-links{
+
+    color: aliceblue;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.link{
+
+    color: aliceblue;
+    font-size: 14px;
+}
+    
+
+.right-column{
+    border-radius: 10px;
+    background-color:#ffffff;
+    width: 60%;
+    padding: var(--issiputimas2);
+    float: left;
+
+}
+
+
+
+
+
+.btn{
+        
+        padding: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(25, 28, 179);
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        text-shadow: 20px gray;
+        border-radius: 5px;
+        border: 2px r650258gb(24, 33, 160);
+        box-shadow:  
+        5px 5px 10px rgb(17, 8, 97),
+        -5px -5px 10px rgba(70, 70, 70, 0.12);  
+    
+    }
+
+.btn-hoveris{
+        padding: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(255, 0, 0);
+        border: 2px rgb(245, 1, 1);
+        box-shadow:  
+        -5px -5px 10px rgb(179, 3, 3),
+        5px 5px 10px rgba(70, 70, 70, 0.12); 
+    
+}
+
+.close{
+
+    display: inline-block;
+    background-color: blue;
+}

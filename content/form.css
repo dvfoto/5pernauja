@@ -1,0 +1,35 @@
+
+
+.form{
+
+    display: inline-block;
+    width: 100%;
+
+}
+.form-row{
+
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.label {
+
+    
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: gray;
+
+}
+
+.input{
+
+    
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(3, 5, 102),
+    -5px -5px 10px rgba(70, 70, 70, 0.12); 
+}
