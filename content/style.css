@@ -67,7 +67,6 @@ main{
 .main-title
 {
     color: #ffffff;
-    -webkit-text-stroke: 0.01px #071dac;
     display: inline-block;
     width: 100%;
     font-size: 70px;
@@ -87,8 +86,6 @@ main{
     color: aliceblue;
     display: inline-block;
     width: 100%;
-/* 
-    kazkokios pyzda */
 
 }
 
@@ -166,7 +163,7 @@ main{
 }
 .close:hover{
     
-    border: 1px solid #071dac;
+    font-size: 30px;
 }
 
 samp{
