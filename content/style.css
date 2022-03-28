@@ -42,7 +42,7 @@ main{
     padding: var(--issiputimas1);
     margin-top: 30px;
     background-color: black;
-    background-image: url(/content/sign_up.jpg);
+    background-image: url(./sign_up.jpg);
     background-size: 110%;
     background-position: center center;
     height: 480px;
