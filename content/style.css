@@ -97,17 +97,19 @@ main{
 
 
 .btn{
-        
-        padding: 40px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        display: inline-block;
+        width: auto;
+        padding: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
         background-color: rgb(25, 28, 179);
         text-decoration: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: aliceblue;
         text-shadow: 20px gray;
-        border-radius: 5px;
-        border: 2px r650258gb(24, 33, 160);
+        border-radius: 25px;
+        border: 2px rgb(24, 33, 160);
         box-shadow:  
         5px 5px 10px rgb(17, 8, 97),
         -5px -5px 10px rgba(70, 70, 70, 0.12);  
