@@ -11,6 +11,14 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
+    
+
+}
+
+.form-row:last-of-type{
+
+    margin-bottom: 0px;
+    
 
 }
 .label {
@@ -29,7 +37,10 @@
     display: inline-block;
     width: 100%;
     font-size: 20px;
+    line-height: 30px;
     border: none;
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(3, 5, 102);
     box-shadow: 5px 5px 10px rgb(3, 5, 102),
     -5px -5px 10px rgba(70, 70, 70, 0.12); 
 
@@ -39,4 +50,13 @@
     color: rgb(78, 78, 78);
     font-style: italic;
     font-size: 15px;
+}
+
+.input:focus{
+    outline: transparent;    
+    border: none;
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(102, 3, 89);
+    box-shadow: 5px 5px 10px rgb(133, 7, 105),
+    -5px -5px 10px rgba(70, 70, 70, 0.12); 
 }

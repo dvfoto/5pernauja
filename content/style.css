@@ -19,9 +19,8 @@ body{
     font-family: 'IBM Plex Mono', monospace;
     background-color: rgb(177, 168, 168);
     background-image:url(/content/fonasa.jpg);  
-    background-size: cover;
+    background-position: cover;
     background-repeat: no-repeat;
-
 
 }
 
@@ -44,10 +43,25 @@ main{
     margin-top: 30px;
     background-color: black;
     background-image: url(/content/sign_up.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 110%;
+    background-position: center center;
     height: 480px;
     
+}
+.left-column:hover{
+
+    background-size: 110% ;
+    background-position: center center;
+    animation: shrink 5s infinite alternate;
+  }
+  @keyframes shrink {
+    0% {
+      background-size: 110% ;
+    }
+    100% {
+      background-size: 100% ;
+    }
+  
 }
 
 .main-title
@@ -100,10 +114,12 @@ main{
 
 .btn{
         display: inline-block;
-        width: auto;
-        padding: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        width: 30%;
+        height: 40px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 20px;
         font-weight: bold;
         background-color: rgb(25, 28, 179);
         text-decoration: none;
@@ -118,15 +134,16 @@ main{
     
     }
 
-.btn-hoveris{
-        padding: 25px;
+.btn:hover{
+        padding: 30px;
         padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: rgb(255, 0, 0);
-        border: 2px rgb(245, 1, 1);
+        padding-bottom: 15px;
+        background-color: rgb(102, 3, 89);
+        border: 2px rgb(102, 3, 89);
         box-shadow:  
-        -5px -5px 10px rgb(179, 3, 3),
+        -5px -5px 10px rgb(102, 3, 89),
         5px 5px 10px rgba(70, 70, 70, 0.12); 
+        cursor: pointer;
     
 }
 
@@ -139,3 +156,26 @@ main{
 samp{
     font-size: 20px;
 }
+.right-column samp{
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    line-height: 20px;
+    margin-left: 15px;
+
+}
+
+.right-column a{
+    
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    }
+
+    .right-column a:hover{
+
+        color: rgb(102, 3, 89) ;
+        text-decoration: underline;
+    } 
