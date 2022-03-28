@@ -17,12 +17,10 @@ body *{
 body{
     
     font-family: 'IBM Plex Mono', monospace;
-    background-color: rgb(177, 168, 168));
-    
-    background-image:url(/content/fonasa.jpg);    
+    background-color: rgb(177, 168, 168);
+    background-image:url(/content/fonasa.jpg);  
     background-size: cover;
     background-repeat: no-repeat;
-    ba
 
 
 }
