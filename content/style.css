@@ -31,7 +31,8 @@ main{
     width: var(--widht);
     margin-top: 100px;
     margin-left: calc((100% - var(--widht)) / 2);
-
+    position: relative;
+    position: center center;
 
 
 }
@@ -40,12 +41,14 @@ main{
     width: 40%;
     float: left;
     padding: var(--issiputimas1);
-    margin-top: 30px;
     background-color: black;
     background-image: url(./sign_up.jpg);
     background-size: 110%;
     background-position: center center;
-    height: 480px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+
     
 }
 .left-column:hover{
@@ -85,7 +88,10 @@ main{
 
     color: aliceblue;
     display: inline-block;
-    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 20px;
 
 }
 
@@ -103,6 +109,7 @@ main{
     padding: var(--issiputimas2);
     float: left;
     position: relative;
+    float: right;
 
 }
 
