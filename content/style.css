@@ -72,7 +72,7 @@ main{
     color: #ffffff;
     display: inline-block;
     width: 100%;
-    font-size: 70px;
+    font-size: 50px;
     font-weight:900;
     padding-bottom: 320px;
 
@@ -99,6 +99,7 @@ main{
 
     color: aliceblue;
     font-size: 14px;
+    text-decoration: none;
 }
     
 
@@ -119,7 +120,7 @@ main{
 
 .btn{
         display: inline-block;
-        width: 30%;
+        width: auto;
         height: 40px;
         padding: 10px;
         padding-left: 20px;
@@ -132,7 +133,7 @@ main{
         color: aliceblue;
         text-shadow: 20px gray;
         border-radius: 25px;
-        border: 2px rgb(24, 33, 160);
+        border: 2px rgb(237, 7, 7);
         box-shadow:  
         5px 5px 10px rgb(17, 8, 97),
         -5px -5px 10px rgba(70, 70, 70, 0.12);  
@@ -140,9 +141,7 @@ main{
     }
 
 .btn:hover{
-        padding: 30px;
-        padding-top: 10px;
-        padding-bottom: 15px;
+        width: auto;
         background-color: rgb(102, 3, 89);
         border: 2px rgb(102, 3, 89);
         box-shadow:  
